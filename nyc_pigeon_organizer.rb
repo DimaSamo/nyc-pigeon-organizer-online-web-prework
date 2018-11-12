@@ -5,6 +5,8 @@ def nyc_pigeon_organizer(data)
       name_array.each do |name|
         if !ret_hash.has_key?(name)
           ret_hash[name] = {attributes_keys => [specifics.to_s]}
+        else
+          ret_hash[name][attributes_keys].push(specifics.to_s)
         end
       end
     end
