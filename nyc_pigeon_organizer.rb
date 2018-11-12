@@ -7,8 +7,6 @@ def nyc_pigeon_organizer(data)
         if !ret_hash.has_key?(name)
           ret_hash[name] = {attributes_keys => [specifics.to_s]}
           ##binding.pry
-        elsif !ret_hash[name].has_key?(attributes_keys)
-          ret_hash[name][attributes_keys].push(specifics.to_s)
         end
       end
     end
