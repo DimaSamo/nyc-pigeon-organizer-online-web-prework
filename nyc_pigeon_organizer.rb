@@ -16,7 +16,7 @@ def nyc_pigeon_organizer(data)
   ret_hash
 end
 
-pigeon_data = {
+pigeon_datas = {
   :color => {
     :purple => ["Theo", "Peter Jr.", "Lucky"],
     :grey => ["Theo", "Peter Jr.", "Ms. K"],
@@ -35,4 +35,4 @@ pigeon_data = {
   }
 }
 
-nyc_pigeon_organizer(pigeon_data)
+nyc_pigeon_organizer(pigeon_datas)
