@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
     attribute_hash.each do |specifics, name_array|
       name_array.each do |name|
         if !ret_hash.has_key?(name)
-          ret_hask[name] = {attributes_keys => [specifics.to_s]}
+          ret_hash[name] = {attributes_keys => [specifics.to_s]}
         end
       end
     end
